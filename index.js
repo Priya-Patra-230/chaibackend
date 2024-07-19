@@ -44,7 +44,7 @@ app.get('/github', (req,res) =>{
 })
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello Backend!')
 })
 
 app.get('/twitter', (req,res) =>{
